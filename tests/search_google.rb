@@ -12,7 +12,7 @@ class SearchGoogle < Test::Unit::TestCase
   def test_first
     url = 'http://www.google.com'
     page = SearchGooglePage.new(url)
-    puts 'test passed fayaz'
+    puts 'test passed fayaz mohd'
     page.search_for_any_word('selenium')
     page.browser_quit
 
