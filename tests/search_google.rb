@@ -12,8 +12,7 @@ class SearchGoogle < Test::Unit::TestCase
   def test_first
     url = 'http://www.google.com'
     page = SearchGooglePage.new(url)
-    
-    puts 'test passed!!..added port forwarding'
+    puts 'test passed!!..added older version of github plugin'
     page.search_for_any_word('selenium')
     page.browser_quit
 
